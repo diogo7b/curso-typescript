@@ -44,13 +44,18 @@ console.log(endereco)
 enum Cor {
     Cinza,
     Azul,
-    Preto= 200,
+    Preto = 200,
     Amarelo
 }
 
-const cor1:Cor = Cor.Azul
-const cor2:Cor = Cor.Preto
-const cor3:Cor = Cor.Amarelo
+const cor1: Cor = Cor.Azul
+const cor2: Cor = Cor.Preto
+const cor3: Cor = Cor.Amarelo
 console.log(cor1)
 console.log(cor2)
 console.log(cor3)
+
+let carro: any = "BMW" //declaração de variável
+console.log(carro)
+carro = { marca: "Bmw", modelo: "m3" } //atribuição de valor
+console.log(carro)

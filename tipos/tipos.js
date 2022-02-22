@@ -46,3 +46,7 @@ const cor3 = Cor.Amarelo;
 console.log(cor1);
 console.log(cor2);
 console.log(cor3);
+let carro = "BMW"; //declaração de variável
+console.log(carro);
+carro = { marca: "Bmw", modelo: "m3" }; //atribuição de valor
+console.log(carro);
